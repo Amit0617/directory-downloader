@@ -1,0 +1,1 @@
+my_array=(`curl -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/$1/contents/$2 | grep "download_url" | awk '{print $2}'| tr -d , | tr -d \"`); for ((i=0;i<${#my_array[@]};i++)); do curl -O "${my_array[$i]}"; done 
