@@ -11,6 +11,8 @@ git clone https://github.com/Amit0617/directory-downloader.git; cd directory-dow
 ```shell
 gh-down username/repositoryname path/to/directory
 ```
+![Screenshot_20220228_144809](https://user-images.githubusercontent.com/71893015/155957587-2fe576ec-f626-4020-bc30-085a119a7612.png)
+
 
 ##### Example
 Let say you want to download `ABAP` directory which is in `samples` in https://github.com/octocat/linguist
